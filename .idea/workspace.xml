@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3082e760-c416-43fa-961b-5595af540d16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sqlalchemy ORM/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlalchemy ORM/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlalchemy ORM/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlalchemy ORM/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

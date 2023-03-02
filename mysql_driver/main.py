@@ -31,10 +31,8 @@ while True:
 def get_employees():
     query = "SELECT * FROM employee"
     response = []
-    result = curA.execute(query)
-    if result is None:
-        return {"data": []}
-    for (id, name, address, age, salary, spouse) in result:
+    curA.execute(query)
+    for (id, name, address, age, salary, spouse) in curA:
         response.append({
             "id": id,
             "name": name,
@@ -52,10 +50,8 @@ def get_employees():
 def get_employee(id: int):
     query = f"SELECT * FROM employee where id={id}"
     response = []
-    result = curA.execute(query)
-    if result is None:
-        return {"data": []}
-    for (id, name, address, age, salary, spouse) in result:
+    curA.execute(query)
+    for (id, name, address, age, salary, spouse) in curA:
         response.append({
             "id": id,
             "name": name,

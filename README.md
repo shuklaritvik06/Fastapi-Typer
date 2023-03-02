@@ -1,2 +1,4 @@
 # Fastapi-Typer
-Fastapi &amp; Typer
+
+Exploring Fastapi and typer
+
